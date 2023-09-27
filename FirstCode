@@ -1,0 +1,27 @@
+print ("Welcome to my First Code on AI/IoT Bootcamp")
+
+x = int(input("Enter First Number :"))
+y = int(input("Enter Second Number :"))
+Z = str(input("Enter the Operator"))
+
+def Sum2Num(x,y,Z):
+  print(x+y)
+
+
+def Mult2Num(x,y,Z):
+  print(x*y)
+  
+def Sub2Num(x,y,Z):
+  print(x-y)
+
+def Divid2Num(x,y,Z):
+  print(x/y)
+
+if Z == '+' :
+  Sum2Num(x,y,Z)
+elif Z == '*' :
+  Mult2Num(x,y,Z)
+elif Z == '-':
+  Sub2Num(x,y,Z)
+elif Z == '/' :
+  Divid2Num(x,y,Z)
